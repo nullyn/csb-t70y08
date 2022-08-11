@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    -->
+    <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>IIFL - Har Ghar Tiranga 🇮🇳</title>
+    <meta name="description" content="description of IIFL's campaign will come here." />
+    <meta property="og:title" content="IIFL - Har Ghar Tiranga 🇮🇳" />
+    <meta property="og:url" content="https://iiflwam-hoist-the-flag.in" />
+    <meta property="og:description" content="description of IIFL's campaign will come here." />
+    <meta property="og:image" content="//cdn.example.com/uploads/images/webpage_300x200.png" />
+
+
+
+    
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <div class="d-flex flex-column align-items-center">
+        <img id="FirstImage" src="a.gif" alt="text" onclick="ChangeImagePlayAnthem()" loop=infinite>
+      </img>
+
+      </div>
+      
+    </main>
+
+    <!-- partial -->
+
+    <!--
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pulltorefreshjs/0.1.14/pulltorefresh.min.js"></script>
+    
+    <script src="ptr.js"></script>
+    <script src="https://unpkg.com/hammer-touchemulator@0.0.2/touch-emulator.js"></script>
+    <script src="script.js"></script>
+    -->
+    <script>
+      const audio = new Audio("anthem2b.mp3"); 
+
+function ChangeImagePlayAnthem() {
+
+        document.getElementById("FirstImage").src = "b.gif";
+ 
+  audio.play();
+                 }
+      </script>
+
+  </body>
+</html>
